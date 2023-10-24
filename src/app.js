@@ -1,0 +1,26 @@
+import express from 'express'
+import dotenv from 'dotenv'
+import morgan from 'morgan'
+import cookieParser from 'cookie-parser'
+import cors from 'cors'
+//ROUTES
+import authRoutes from './routes/auth.routes.js'
+import taskRoutes from './routes/tasks.routes.js'
+
+//CARGA LAS VARIABLES DE ENTORNO.
+dotenv.config();
+
+//ARRANCA APLICACION.
+const app = express();
+
+app.use(cors({
+    origin: 'http://localhost:5173'
+}));
+app.use(morgan('dev'));
+app.use(express.json());
+app.use(cookieParser());
+
+app.use('/api', authRoutes);
+app.use('/api', taskRoutes);
+
+export default app;
