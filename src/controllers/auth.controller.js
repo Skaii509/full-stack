@@ -1,6 +1,7 @@
 import User from '../models/user.model.js'
 import bcrypt from 'bcryptjs'
 import { createAccessToken } from '../libs/jwt.js';
+import jwt from 'jsonwebtoken'
 
 //CREATE|REGISTER AN USER.
 export const register = async (req, res) => {
@@ -98,4 +99,24 @@ export const profile = async (req, res) => {
         createdAt: userFound.createdAt,
         updatedAt: userFound.updatedAt
     });
+}
+
+//VERIFY TOKEN
+export const verifyToken = async (req, res) => {
+    const {token} = req.cookies
+
+    if(!token) return res.status(401).json({message: "Unauthorized"});
+
+    jwt.verify(token, process.env.SECRET_KEY, async (err, user) => {
+        if(err) return res.status(401).json({message: "Unauthorized"});
+
+        const userFound = await User.findById(user.id);
+        if(!userFound) return res.status(401).json({message: "Unauthorized"});
+
+        return res.json({
+            id: userFound._id,
+            email: userFound.email,
+            username: userFound.username
+        })
+    })
 }
