@@ -52,12 +52,12 @@ function LoginPage() {
                             </p>
                         )
                     }
-                    <button type='submit'>
+                    <button type='submit' className='bg-sky-500 text-white px-4 py-2 rounded-md my-2 hover:bg-sky-600'>
                         Send
                     </button>
                 </form>
-                <p className='flex gap-x-2 justify-between'>
-                    Don't have an account yet? <Link className="text-sky-500" to="/register">Sign up</Link>
+                <p className='flex gap-x-2'>
+                    Don't have an account yet? <Link className="text-slate-400 underline" to="/register">Sign up</Link>
                 </p>
             </div>
         </div>

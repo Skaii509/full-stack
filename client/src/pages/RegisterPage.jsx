@@ -67,12 +67,12 @@ function RegisterPage() {
                             </p>
                         )
                     }
-                    <button type='submit'>
+                    <button type='submit' className='bg-sky-500 text-white px-4 py-2 rounded-md my-2 hover:bg-sky-600'>
                         Send
                     </button>
                 </form>
-                <p className='flex gap-x-2 justify-between'>
-                    You already have an account? <Link className="text-sky-500" to="/login">Sign in</Link>
+                <p className='flex gap-x-2'>
+                    You already have an account? <Link className="text-slate-400 underline" to="/login">Sign in</Link>
                 </p>
             </div>
         </div>
