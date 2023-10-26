@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 body {
-  background: #202020;
+  margin: 0;
+  background: #222;
   color: white;
+  font-family: system-ui;
 }

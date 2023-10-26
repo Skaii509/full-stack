@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 
+import Profile from './Profile';
+
 function Navbar() {
-    const { isAuthenticated, logout, user } = useAuth()
+    const { isAuthenticated } = useAuth();
 
     return(
         <nav className="bg-zinc-700 my-3 flex justify-between py-5 px-10 rounded-lg">
@@ -12,18 +14,13 @@ function Navbar() {
             <ul className="flex gap-x-9">
                 {isAuthenticated ? (
                     <>
-                        <li>Welcome {user.username}</li>
                         <li>
                             <Link to='/tasks'>Tasks</Link>
                         </li>
                         <li>
                             <Link to='/add-task'>Add task</Link>
                         </li>
-                        <li>
-                            <Link to='/' onClick={() => {
-                                logout();
-                            }}>Logout</Link>
-                        </li>
+                        <Profile />
                     </>
                 ) : (
                 <>
