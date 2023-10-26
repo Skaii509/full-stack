@@ -22,6 +22,7 @@ function Profile() {
                                 <h1 className='dropdownContentUsername'>
                                     <strong>{user.username}</strong>
                                 </h1>
+                                <h3>Correo</h3>
                                 
                             </header>
                         </section>
