@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    padding: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    top: 15px;
+    justify-content: space-between;
+    border-radius: 10px; 
+    background-color: rgb(80, 80, 80);
+}
+
+.navbarTitle {
+    font-size: 1.5rem;
+    line-height: 2rem; 
+    font-weight: 700; 
+}
+
+.navbarUl {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.navbarLi {
+    color: white;
+}
+
+.navbarLi:hover {
+    color: rgb(185, 185, 185);
+    transition: .2s ease;
+}
+
+.navbarLinkLogin, .navbarLinkRegister {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    border-radius: 0.375rem; 
+    color: #ffffff; 
+    background-color: #3B82F6; 
+}
+
+.navbarLinkLogin:hover, .navbarLinkRegister:hover {
+    background-color: #2563EB;
+}

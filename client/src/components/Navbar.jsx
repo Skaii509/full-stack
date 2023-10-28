@@ -2,36 +2,37 @@ import { Link } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 
 import Profile from './Profile';
+import '../styles/Navbar.css'
 
 function Navbar() {
     const { isAuthenticated } = useAuth();
 
     return(
-        <nav className="bg-zinc-700 my-3 flex justify-between py-5 px-10 rounded-lg">
+        <nav className="navbar">
             <Link to='/'>
-                <h1 className="text-2xl font-bold">Ruta Financiera</h1>
+                <h1 className="navbarTitle">Ruta Financiera</h1>
             </Link>
-            <ul className="flex gap-x-9">
+            <ul className="navbarUl">
                 {isAuthenticated ? (
                     <>
-                        <li>
+                        <li className='navbarLi'>
                             <Link to='/'>Home</Link>
                         </li>
-                        <li>
+                        <li className='navbarLi'>
                             <Link to='/tasks'>Tasks</Link>
                         </li>
-                        <li>
+                        <li className='navbarLi'>
                             <Link to='/add-task'>Add task</Link>
                         </li>
                         <Profile />
                     </>
                 ) : (
                 <>
-                    <li>
-                        <Link to='/login' className='bg-indigo-500 px-4 py-1 rounded-sm'>Login</Link>
+                    <li className='navbarLi'>
+                        <Link to='/login' className='navbarLinkLogin'>Login</Link>
                     </li>
-                    <li>
-                        <Link to='/register' className='bg-indigo-500 px-4 py-1 rounded-sm'>Register</Link>
+                    <li className='navbarLi'>
+                        <Link to='/register' className='navbarLinkRegister'>Register</Link>
                     </li>   
                 </>    
                 )}

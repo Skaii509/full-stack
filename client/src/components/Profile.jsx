@@ -10,7 +10,7 @@ function Profile() {
     return (
         <>
             <button className="profileButton" onClick={() => setOpenDropdown((prev) => !prev)}>
-                <img className='profileImg' src="https://randomuser.me/api/portraits/men/1.jpg" alt="Profile-img" />
+                <img className='profileImg' src="https://randomuser.me/api/portraits/lego/1.jpg" alt="Profile-img" />
             </button>
             
             {
@@ -18,11 +18,10 @@ function Profile() {
                     <div className="dropdownContent">
                         <section className="dropdownContentSection">
                             <header className="dropdownContentHeader">
-                                <img className='dropdownContentImg' src="https://randomuser.me/api/portraits/men/1.jpg" alt="Profile-img" />
+                                <img className='dropdownContentImg' src="https://randomuser.me/api/portraits/lego/1.jpg" alt="Profile-img" />
                                 <h1 className='dropdownContentUsername'>
                                     <strong>{user.username}</strong>
                                 </h1>
-                                <h3>Correo</h3>
                                 
                             </header>
                         </section>

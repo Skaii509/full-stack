@@ -1,0 +1,89 @@
+.card {
+    display: grid;
+    grid-template-rows: 50px 100px 50px; /* Tres filas, la del medio es auto */
+    grid-template-columns: 1fr; /* Una columna */
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .8rem;
+    padding-right: .8rem;
+    border-radius: 10px;
+    background-color: rgb(45, 45, 45);
+    overflow: hidden;
+  }
+  
+
+.cardTitle {
+    max-height: 40px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.cardDescription {
+    display: flex;
+    overflow: hidden;
+    max-height: 100px;
+}
+
+.cardDescriptionTitle {
+    opacity: .5;
+    margin-right: 10px;
+}
+
+.cardDescriptionText {
+    overflow-y: scroll;
+    text-overflow: ellipsis;
+}
+
+.cardDescriptionText::-webkit-scrollbar {
+    text-decoration: none;
+}
+
+.cardFooter {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardDate {
+    opacity: .5;
+}
+
+.cardFooterButtons {
+    display: flex; 
+    column-gap: .5rem; 
+    align-items: center; 
+}
+
+.cardFooterButtonEdit {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    border-radius: 0.375rem; 
+    color: #ffffff; 
+    background-color: #3B82F6; 
+}
+
+.cardFooterButtonEdit:hover {
+    background-color: #2563EB; 
+}
+
+.cardFooterButtonDelete {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    border-radius: 0.375rem; 
+    color: #ffffff; 
+    background-color: #EF4444;  
+}
+
+.cardFooterButtonDelete:hover {
+    background-color: #DC2626;  
+}
+
+
+   
