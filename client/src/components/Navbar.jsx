@@ -33,7 +33,7 @@ function Navbar() {
                     </li>
                     <li className='navbarLi'>
                         <Link to='/register' className='navbarLinkRegister'>Register</Link>
-                    </li>   
+                    </li>
                 </>    
                 )}
             </ul>

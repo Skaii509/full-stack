@@ -3,6 +3,8 @@ import { useTasks } from '../context/TasksContext';
 import { useNavigate, useParams } from 'react-router-dom'
 import { useEffect } from 'react';
 
+import '../styles/pagesStyles/TaskFormPage.css'
+
 function TaskFormPage() {
     const { register, handleSubmit, setValue } = useForm();
     const { createTask, getTask, updateTask } = useTasks();
@@ -31,21 +33,24 @@ function TaskFormPage() {
     })
 
     return (
-        <div className='bg-zinc-800 max-w-md w-full p-10 rounded-md'>
-            <form onSubmit={onSubmit}>
-                <input type="text" placeholder="Title" 
-                    {... register('title')}
-                    className='w-full bg-zinc-700 text-white px-4 py-2 rounded-md my-2'
-                    autoFocus
-                />
-                <textarea rows="3" placeholder="Description"
-                    {... register('description')}
-                    className='w-full bg-zinc-700 text-white px-4 py-2 rounded-md my-2'
-                ></textarea>
-                <button>
-                    Save
-                </button>
-            </form>
+        <div className='divTaskForm'>
+            <div className='taskFormContainer'>
+                <form onSubmit={onSubmit}>
+                    <h1 className='newTaskTitle'>New Task</h1>
+                    <input type="text" placeholder="Title" 
+                        {... register('title')}
+                        className='titleInput'
+                        autoFocus
+                    />
+                    <textarea rows="3" placeholder="Description"
+                        {... register('description')}
+                        className='descriptionInput'
+                    ></textarea>
+                    <button className='taskSendButton'>
+                        Save
+                    </button>
+                </form>
+            </div>
         </div>
     )
 }

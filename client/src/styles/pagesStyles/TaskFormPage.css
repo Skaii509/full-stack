@@ -1,0 +1,46 @@
+.divTaskForm {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.newTaskTitle {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.taskFormContainer {
+    max-width: 28rem;
+    padding: 2.5rem; 
+    border-radius: 0.375rem; 
+    width: 100%;
+    background-color: rgb(39 39 42);
+}
+
+.titleInput, .descriptionInput {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem; 
+    border-radius: 0.375rem; 
+    width: 100%; 
+    color: #ffffff; 
+    background-color: rgb(63 63 70);
+}
+
+.taskSendButton {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.375rem;
+    color: #ffffff;
+    background-color: rgb(59 130 246);
+}
+
+.taskSendButton:hover {
+    background-color: rgb(37 99 235);
+}

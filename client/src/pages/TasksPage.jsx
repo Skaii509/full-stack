@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useTasks } from '../context/TasksContext.jsx';
 import TaskCard from '../components/TaskCard.jsx';
 
-import '../styles/pagesStyles/TaskPag.css'
+import '../styles/pagesStyles/TaskPage.css'
 
 function TasksPage() {
     const { getTasks, tasks } = useTasks();
