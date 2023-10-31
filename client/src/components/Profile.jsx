@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 
@@ -7,12 +7,15 @@ import '../styles/Profile.css'
 function Profile() {
     const [ openDropdown, setOpenDropdown ] = useState(false);
     const { logout, user } = useAuth();
+
+    useEffect(() => {
+        setOpenDropdown(false)
+    }, []);
     return (
         <>
             <button className="profileButton" onClick={() => setOpenDropdown((prev) => !prev)}>
                 <img className='profileImg' src="https://randomuser.me/api/portraits/lego/1.jpg" alt="Profile-img" />
             </button>
-            
             {
                 openDropdown && (
                     <div className="dropdownContent">
@@ -22,7 +25,7 @@ function Profile() {
                                 <h1 className='dropdownContentUsername'>
                                     <strong>{user.username}</strong>
                                 </h1>
-                                
+                                    
                             </header>
                         </section>
                         <Link to={'/profile'}>Profile</Link>

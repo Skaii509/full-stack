@@ -1,0 +1,15 @@
+.calculatorInfo {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgb(63 63 70);
+}
+
+.infoTitle{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.infoPar {
+    margin-top: 10px;
+}

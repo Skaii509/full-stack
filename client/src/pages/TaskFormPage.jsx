@@ -1,6 +1,6 @@
 import { useForm } from 'react-hook-form'
 import { useTasks } from '../context/TasksContext';
-import { useNavigate, useParams } from 'react-router-dom'
+import { Link, useNavigate, useParams } from 'react-router-dom'
 import { useEffect } from 'react';
 
 import '../styles/pagesStyles/TaskFormPage.css'
@@ -46,9 +46,14 @@ function TaskFormPage() {
                         {... register('description')}
                         className='descriptionInput'
                     ></textarea>
-                    <button className='taskSendButton'>
-                        Save
-                    </button>
+                    <div className='buttonsDiv'>
+                        <button className='taskSendButton'>
+                            Save
+                        </button>
+                        <Link className='taskCancelButton' to='/tasks'>
+                            Cancel
+                        </Link>
+                    </div>
                 </form>
             </div>
         </div>

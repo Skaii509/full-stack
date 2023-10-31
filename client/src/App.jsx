@@ -9,6 +9,8 @@ import TasksPage    from './pages/TasksPage'
 import TaskFormPage from './pages/TaskFormPage'
 import ProfilePage  from './pages/ProfilePage'
 import SettingsPage  from './pages/SettingsPage'
+import CalculatorPage  from './pages/CalculatorPage'
+
 import Navbar from './components/Navbar'
 
 import ProtectedRoute from './ProtectedRoute'
@@ -31,6 +33,7 @@ function App(){
                 <Route path='/tasks/:id' element={<TaskFormPage />} />
                 <Route path='/profile' element={<ProfilePage />} />
                 <Route path='/settings' element={<SettingsPage />} />
+                <Route path='/calculator' element={<CalculatorPage />} />
               </Route>
             </Routes>
           </main>

@@ -22,7 +22,7 @@ function Navbar() {
                             <Link to='/tasks'>Tasks</Link>
                         </li>
                         <li className='navbarLi'>
-                            <Link to='/add-task'>Add task</Link>
+                            <Link to='/calculator'>Calculator</Link>
                         </li>
                         <Profile />
                     </>

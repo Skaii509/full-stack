@@ -1,5 +1,6 @@
 .navbar {
     display: flex;
+    min-width: 380px;
     padding: 20px;
     margin-top: 1rem;
     margin-bottom: 1rem;
