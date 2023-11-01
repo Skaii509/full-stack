@@ -1,7 +1,7 @@
 import { useTasks } from "../context/TasksContext";
 import { Link } from 'react-router-dom'
 
-import '../styles/TaskCard.css'
+import '../styles/components/TaskCard.css'
 
 function TaskCard ({ task }) {
 

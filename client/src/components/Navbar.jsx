@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 
 import Profile from './Profile';
-import '../styles/Navbar.css'
+import '../styles/components/Navbar.css'
 
 function Navbar() {
     const { isAuthenticated } = useAuth();

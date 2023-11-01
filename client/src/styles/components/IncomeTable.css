@@ -1,0 +1,66 @@
+.tableWrapper {
+    width: 100%;
+}
+
+.table {
+    display: block;
+    overflow: hidden;
+    table-layout: auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    border: 1px solid #222;
+    white-space: nowrap;
+    width: 100em;
+    max-width: 70%;
+    margin: auto;
+    overflow-x: auto;
+}
+
+.table thead {
+    background-color: #222;
+    color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.table th,
+.table td {
+    padding: .4rem;
+}
+
+.table td {
+    border-top: 0.5px solid #222;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table tbody tr:hover {
+    background-color: #363636;
+}
+
+.incomeNameCol {
+    width: 45%;
+}
+.incomeAmountCol {
+    width: 35%;
+}
+.incomeActionsCol {
+    width: 20%;
+}
+
+.actionIcons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.actionIcons svg {
+    cursor: pointer;
+}
+
+.deleteBtn {
+    color: #e10c05b0;
+}
+
+.totalAmount {
+    background-color: #222;
+}
