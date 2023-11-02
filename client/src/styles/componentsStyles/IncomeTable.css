@@ -38,6 +38,10 @@
     background-color: #363636;
 }
 
+.table tbody .incomeTitle {
+    text-transform: capitalize;
+}
+
 .incomeNameCol {
     width: 60%;
 }

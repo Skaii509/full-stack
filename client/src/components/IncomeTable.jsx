@@ -1,11 +1,14 @@
 import { React } from "react"
 import { BsFillTrashFill, BsFillPencilFill } from "react-icons/bs"
 
+import { useIncomes } from '../context/IncomeContext';
+
 import '../styles/componentsStyles/IncomeTable.css'
 
 function IncomeTable({ rows }) {
     const initialValue = 0;
     const totalAmount = rows.reduce((accumulator, currentValue) => accumulator + parseInt(currentValue.amount), initialValue);
+    const { deleteIncome, editIncome } = useIncomes()
 
     return (
         <div className="tableWrapper">
@@ -22,12 +25,12 @@ function IncomeTable({ rows }) {
                         rows.map((rows, idx) => {
                             return (
                                 <tr key={idx}>
-                                    <td>{rows.title}</td>
+                                    <td className="incomeTitle">{rows.title}</td>
                                     <td>${rows.amount}</td>
                                     <td>
                                         <span className="actionIcons">
-                                            <BsFillPencilFill className="editBtn"/>
-                                            <BsFillTrashFill className="deleteBtn"/>
+                                            <BsFillPencilFill className="editBtn" onClick={() => editIncome(rows._id, rows)} />
+                                            <BsFillTrashFill className="deleteBtn" onClick={() => deleteIncome(rows._id)}/>
                                         </span>
                                     </td>
                                 </tr>
