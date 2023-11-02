@@ -1,36 +1,18 @@
-import React, { useState } from 'react';
-
+import React, { useEffect, useState } from 'react';
 
 import IncomeTable from '../components/incomeTable'
 import Modal from '../components/Modal'
+import { useIncomes } from '../context/IncomeContext'
 
 import '../styles/pagesStyles/Calculator.css'
 
 function CalculatorPage() {
-    const [modalOpen, setModalOpen] = useState(false)
-    
-    const rows = [
-        {
-            name : "Sueldo",
-            amount: "100" 
-        },
-        {
-            name : "Bonos",
-            amount: "50" 
-        },
-        {
-            name : "Inversiones",
-            amount: "25" 
-        },
-        {
-            name : "Fondos Mutuos",
-            amount: "12" 
-        },
-        {
-            name : "Depositos a plazos",
-            amount: "200" 
-        }
-    ]
+    const [ modalOpen, setModalOpen ] = useState(false)
+    const { getIncomes, incomes } = useIncomes()
+
+    useEffect(() => {
+        getIncomes()
+    }, []);
 
     return (
         <>
@@ -49,13 +31,13 @@ function CalculatorPage() {
                         setModalOpen(true)
                     }}>Add new income</button>
                 </div>
-                
-                <IncomeTable rows={rows} />
+                    
+                <IncomeTable rows={incomes} />
                 {modalOpen && <Modal closeModal={() => {
                     setModalOpen(false)
                 }} />}
+
             </div>
-            
         </>
     )
 }

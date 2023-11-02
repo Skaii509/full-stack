@@ -3,9 +3,11 @@ import dotenv from 'dotenv'
 import morgan from 'morgan'
 import cookieParser from 'cookie-parser'
 import cors from 'cors'
+
 //ROUTES
 import authRoutes from './routes/auth.routes.js'
 import taskRoutes from './routes/tasks.routes.js'
+import incomeRoutes from './routes/incomes.routes.js'
 
 //CARGA LAS VARIABLES DE ENTORNO.
 dotenv.config();
@@ -23,5 +25,6 @@ app.use(cookieParser());
 
 app.use('/api', authRoutes);
 app.use('/api', taskRoutes);
+app.use('/api', incomeRoutes);
 
 export default app;

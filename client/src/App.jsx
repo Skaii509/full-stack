@@ -1,6 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
 import { AuthProvider } from './context/AuthContext'
 import { TaskProvider } from './context/TasksContext'
+import { IncomeProvider } from './context/IncomeContext'
 
 import HomePage     from './pages/HomePage'
 import LoginPage    from './pages/LoginPage'
@@ -33,7 +35,7 @@ function App(){
                 <Route path='/tasks/:id' element={<TaskFormPage />} />
                 <Route path='/profile' element={<ProfilePage />} />
                 <Route path='/settings' element={<SettingsPage />} />
-                <Route path='/calculator' element={<CalculatorPage />} />
+                <Route path='/calculator' element={<IncomeProvider><CalculatorPage /></IncomeProvider>} />
               </Route>
             </Routes>
           </main>

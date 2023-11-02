@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 
-import '../styles/components/Profile.css'
+import '../styles/componentsStyles/Profile.css'
 
 function Profile() {
     const [ openDropdown, setOpenDropdown ] = useState(false);

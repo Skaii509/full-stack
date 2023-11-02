@@ -1,6 +1,6 @@
 import { Router } from 'express'
 import { authRequired } from '../middlewares/validateToken.js'
-import {getTasks, getTask, createTask, deleteTask, updateTask} from '../controllers/tasks.controller.js'
+import { getTasks, getTask, createTask, deleteTask, updateTask } from '../controllers/tasks.controller.js'
 
 const router = Router()
 

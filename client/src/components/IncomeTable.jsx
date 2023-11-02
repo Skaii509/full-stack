@@ -1,7 +1,7 @@
 import React from "react"
 import { BsFillTrashFill, BsFillPencilFill } from "react-icons/bs"
 
-import '../styles/components/IncomeTable.css'
+import '../styles/componentsStyles/IncomeTable.css'
 
 function IncomeTable({ rows }) {
 
@@ -23,7 +23,7 @@ function IncomeTable({ rows }) {
                         rows.map((row, idx) => {
                             return (
                                 <tr key={idx}>
-                                    <td>{row.name}</td>
+                                    <td>{row.title}</td>
                                     <td>${row.amount}</td>
                                     <td>
                                         <span className="actionIcons">
@@ -38,7 +38,7 @@ function IncomeTable({ rows }) {
                 </tbody>
                 <tfoot className="totalAmount">
                     <tr>
-                        <td>Total</td>
+                        <td>Total =</td>
                         <td>${totalAmount}</td>
                         <td></td>
                     </tr>
