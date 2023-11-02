@@ -12,13 +12,6 @@ export const useIncomes = () => {
 export function IncomeProvider({children}) {
     const [incomes, setIncomes] = useState([])
 
-    const handleChange = (e) => {
-        setIncomes({
-            ...incomes,
-            [e.target.name]: e.target.value
-        })
-    }
-
     //GET
     const getIncomes = async () => {
         try {
@@ -32,8 +25,8 @@ export function IncomeProvider({children}) {
     //CREATE
     const createIncome = async (income) => {
         try {
-            const res = await createIncomeRequest(income)
-            console.log(res.data)
+            await createIncomeRequest(income)
+            getIncomes()
         } catch (error) {
             console.error(error)
         }

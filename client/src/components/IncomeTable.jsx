@@ -1,10 +1,9 @@
-import React from "react"
+import { React } from "react"
 import { BsFillTrashFill, BsFillPencilFill } from "react-icons/bs"
 
 import '../styles/componentsStyles/IncomeTable.css'
 
 function IncomeTable({ rows }) {
-
     const initialValue = 0;
     const totalAmount = rows.reduce((accumulator, currentValue) => accumulator + parseInt(currentValue.amount), initialValue);
 
@@ -20,11 +19,11 @@ function IncomeTable({ rows }) {
                 </thead>
                 <tbody>
                     {
-                        rows.map((row, idx) => {
+                        rows.map((rows, idx) => {
                             return (
                                 <tr key={idx}>
-                                    <td>{row.title}</td>
-                                    <td>${row.amount}</td>
+                                    <td>{rows.title}</td>
+                                    <td>${rows.amount}</td>
                                     <td>
                                         <span className="actionIcons">
                                             <BsFillPencilFill className="editBtn"/>

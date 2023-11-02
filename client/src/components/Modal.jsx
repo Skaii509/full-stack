@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { React } from 'react';
 import { useForm } from 'react-hook-form';
 import { IncomeProvider, useIncomes } from '../context/IncomeContext';
 
@@ -7,11 +7,11 @@ import '../styles/componentsStyles/Modal.css'
 function Modal({ closeModal }) {
     const { register, handleSubmit } = useForm();
     const { createIncome } = useIncomes()
-    const { formState, setFormState } = useState()
 
     const onSubmit = handleSubmit((data) => {
         createIncome(data)
         closeModal()
+        
     });
 
     return (

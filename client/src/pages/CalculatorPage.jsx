@@ -8,12 +8,12 @@ import '../styles/pagesStyles/Calculator.css'
 
 function CalculatorPage() {
     const [ modalOpen, setModalOpen ] = useState(false)
-    const { getIncomes, incomes } = useIncomes()
-
+    const { incomes, getIncomes } = useIncomes()
+    
     useEffect(() => {
         getIncomes()
     }, []);
-
+    
     return (
         <>
             <div className="calculatorInfo">
@@ -33,6 +33,7 @@ function CalculatorPage() {
                 </div>
                     
                 <IncomeTable rows={incomes} />
+                
                 {modalOpen && <Modal closeModal={() => {
                     setModalOpen(false)
                 }} />}
