@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 import IncomesList from './IncomesList'
 import Modal from './Modal';
-
 import '../styles/componentsStyles/IncomeTable.css'
 
 function IncomeTable() {

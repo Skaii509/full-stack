@@ -1,7 +1,6 @@
 import React from 'react';
 
 import IncomeTable from '../components/incomeTable'
-
 import '../styles/pagesStyles/Calculator.css'
 
 function CalculatorPage() {
