@@ -1,6 +1,6 @@
 import { React } from 'react';
 import { useForm } from 'react-hook-form';
-import { IncomeProvider, useIncomes } from '../context/IncomeContext';
+import { useIncomes } from '../context/IncomeContext';
 
 import '../styles/componentsStyles/Modal.css'
 
@@ -11,11 +11,9 @@ function Modal({ closeModal }) {
     const onSubmit = handleSubmit((data) => {
         createIncome(data)
         closeModal()
-        
     });
 
     return (
-        <IncomeProvider>
             <div className='modalContainer' onClick={(e) => {
                     if(e.target.className === "modalContainer") closeModal();
                 }}>
@@ -23,17 +21,16 @@ function Modal({ closeModal }) {
                     <form onSubmit={onSubmit}>
                         <div className='formGroup'>
                             <label htmlFor="income">Ingresos</label>
-                            <input type="text" placeholder='Titulo de ingreso...' name="income" {...register('title')} />
+                            <input type="text" placeholder='Titulo de ingreso...' name="income" id='income' {...register('title')} />
                         </div>
                         <div className='formGroup'>
                             <label htmlFor="amount">Monto</label>
-                            <input type="text" placeholder='Monto...' name="amount" {...register('amount')}/>
+                            <input type="text" placeholder='Monto...' name="amount" id='amount' {...register('amount')}/>
                         </div>
-                        <button type='submit' className='modalSendButton bg-blue-500'>Enviar</button>
+                        <button type='submit' className='modalSendButton bg-blue-500' >Enviar</button>
                     </form>
                 </div>
             </div>
-        </IncomeProvider>
      );
 }
 

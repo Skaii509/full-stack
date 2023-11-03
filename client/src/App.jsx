@@ -20,27 +20,25 @@ import ProtectedRoute from './ProtectedRoute'
 function App(){
   return (
     <AuthProvider>
-      <TaskProvider>
-        <BrowserRouter>
-          <main className='container mx-auto px-10'>
-            <Navbar />
-            <Routes>
-              <Route path='/' element={<HomePage />} />
-              <Route path='/login' element={<LoginPage />} />
-              <Route path='/register' element={<RegisterPage />} />
+      <BrowserRouter>
+        <main className='container mx-auto px-10'>
+          <Navbar />
+          <Routes>
+            <Route path='/' element={<HomePage />} />
+            <Route path='/login' element={<LoginPage />} />
+            <Route path='/register' element={<RegisterPage />} />
               
-              <Route element={<ProtectedRoute />}>
-                <Route path='/tasks' element={<TasksPage />} />
-                <Route path='/add-task' element={<TaskFormPage />} />
-                <Route path='/tasks/:id' element={<TaskFormPage />} />
-                <Route path='/profile' element={<ProfilePage />} />
-                <Route path='/settings' element={<SettingsPage />} />
-                <Route path='/calculator' element={<IncomeProvider><CalculatorPage /></IncomeProvider>} />
-              </Route>
-            </Routes>
-          </main>
-        </BrowserRouter>
-      </TaskProvider>
+            <Route element={<ProtectedRoute />}>
+              <Route path='/tasks' element={<TaskProvider><TasksPage /></TaskProvider>} />
+              <Route path='/add-task' element={<TaskProvider><TaskFormPage /></TaskProvider>} />
+              <Route path='/tasks/:id' element={<TaskProvider><TaskFormPage /></TaskProvider>} />
+              <Route path='/profile' element={<ProfilePage />} />
+              <Route path='/settings' element={<SettingsPage />} />
+              <Route path='/calculator' element={<IncomeProvider><CalculatorPage /></IncomeProvider>} />
+            </Route>
+          </Routes>
+        </main>
+      </BrowserRouter>
     </AuthProvider>
   )
 }

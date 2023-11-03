@@ -1,19 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 import IncomeTable from '../components/incomeTable'
-import Modal from '../components/Modal'
-import { useIncomes } from '../context/IncomeContext'
 
 import '../styles/pagesStyles/Calculator.css'
 
 function CalculatorPage() {
-    const [ modalOpen, setModalOpen ] = useState(false)
-    const { incomes, getIncomes } = useIncomes()
-    
-    useEffect(() => {
-        getIncomes()
-    }, []);
-    
     return (
         <>
             <div className="calculatorInfo">
@@ -26,18 +17,9 @@ function CalculatorPage() {
 
             <div className='dataCard'>
                 <div className='headerWrapper'>
-                    <h1 className='headerText'>Ingresos: ¿Cuanto dinero percibe mensualmente?</h1> 
-                    <button className='addIncomeButton' onClick={() => {
-                        setModalOpen(true)
-                    }}>Add new income</button>
+                    <h1 className='headerText'><strong>Ingresos:</strong> ¿Cuanto dinero percibe mensualmente?</h1>
                 </div>
-                    
-                <IncomeTable rows={incomes} />
-                
-                {modalOpen && <Modal closeModal={() => {
-                    setModalOpen(false)
-                }} />}
-
+                <IncomeTable />
             </div>
         </>
     )

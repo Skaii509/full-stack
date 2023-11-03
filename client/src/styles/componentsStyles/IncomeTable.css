@@ -1,55 +1,56 @@
-.tableWrapper {
-    width: 100%;
-}
-
 .table {
-    display: block;
-    overflow: hidden;
-    table-layout: auto;
-    border-collapse: collapse;
-    border-radius: 10px;
+    width: 100%;
+    table-layout: fixed;
     border: 1px solid #222;
-    white-space: nowrap;
-    width: 100em;
-    max-width: 70%;
-    margin: auto;
-    overflow-x: auto;
 }
 
 .table thead {
     background-color: #222;
-    color: #ffffff;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
-.table th,
-.table td {
+.table th, td {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 33.33%;
     padding: .4rem;
 }
 
-.table td {
-    border-top: 0.5px solid #222;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
 .table tbody tr:hover {
-    background-color: #363636;
+    background-color: #333333;
 }
 
-.table tbody .incomeTitle {
-    text-transform: capitalize;
+.columnOne {
+    width: 80%;
 }
 
-.incomeNameCol {
-    width: 60%;
+.columnTwo {
+    width: 10%;
+    text-align: end;
 }
-.incomeAmountCol {
-    width: 20%;
+
+.columnThree {
+    width: 10%;
 }
-.incomeActionsCol {
-    width: 20%;
+
+.amountCell {
+    text-align: end;
+    padding-right: 0 5px;
+    border-left: 1px solid #222;
+}
+
+.actionsCell {
+    border-left: 1px solid #222;
+}
+
+.tableTbody {
+    width: 100%;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.tableTbody tr {
+    border-bottom: 1px solid #222;
 }
 
 .actionIcons {
@@ -57,14 +58,37 @@
     justify-content: space-around;
 }
 
-.actionIcons svg {
+.deleteIncomeButton{
+    color: #e10c0584;
     cursor: pointer;
 }
 
-.deleteBtn {
-    color: #e10c05b0;
+.deleteIncomeButton:hover {
+    color: #e10c05;
 }
 
-.totalAmount {
+.editIncomeButton{
+    color: #8f8f8f9d;
+    cursor: pointer;
+}
+
+.editIncomeButton:hover {
+    color: #bcbcbc;
+}
+
+.tableTfoot {
     background-color: #222;
+}
+
+.footerDiv {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.addIncomeBtn {
+    background-color: #42a942;
+    padding: .2rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
 }
