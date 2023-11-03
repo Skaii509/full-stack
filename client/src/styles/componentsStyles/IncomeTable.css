@@ -86,6 +86,12 @@
     justify-content: space-between;
 }
 
+.addIncomeBtnContainer {
+    /* padding-top: 0.5rem; */
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
 .addIncomeBtn {
     background-color: #42a942;
     padding: .2rem;

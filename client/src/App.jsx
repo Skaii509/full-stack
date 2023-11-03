@@ -12,6 +12,7 @@ import TaskFormPage from './pages/TaskFormPage'
 import ProfilePage  from './pages/ProfilePage'
 import SettingsPage  from './pages/SettingsPage'
 import CalculatorPage  from './pages/CalculatorPage'
+import IncomeFormPage  from './pages/IncomeFormPage'
 
 import Navbar from './components/Navbar'
 
@@ -35,6 +36,8 @@ function App(){
               <Route path='/profile' element={<ProfilePage />} />
               <Route path='/settings' element={<SettingsPage />} />
               <Route path='/calculator' element={<IncomeProvider><CalculatorPage /></IncomeProvider>} />
+              <Route path='/calculator/add-income' element={<IncomeProvider><IncomeFormPage /></IncomeProvider>} />
+              <Route path='/calculator/:id' element={<IncomeProvider><IncomeFormPage /></IncomeProvider>} />
             </Route>
           </Routes>
         </main>

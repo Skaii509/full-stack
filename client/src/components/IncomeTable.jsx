@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
 
+import { Link } from 'react-router-dom'
 import IncomesList from './IncomesList'
-import Modal from './Modal';
 import '../styles/componentsStyles/IncomeTable.css'
 
 function IncomeTable() {
-    const [modalOpen, setModalOpen] = useState(false)
     return (
         <>
-            <button className='addIncomeBtn' onClick={() => {setModalOpen(true)}}>Add new income</button>
+            <div className='addIncomeBtnContainer'>
+                <Link className='addIncomeBtn' to={'add-income'}>Add new income</Link>
+            </div>
             <table className="table">
                 <thead>
                     <tr>
@@ -19,9 +20,6 @@ function IncomeTable() {
                 </thead>
                 <IncomesList />
             </table>
-            {modalOpen && <Modal closeModal={() => {
-                setModalOpen(false)
-            }} />}
         </>
     )
 }

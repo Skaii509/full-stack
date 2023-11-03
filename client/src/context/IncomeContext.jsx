@@ -1,5 +1,5 @@
 import { createContext, useContext, useState } from "react";
-import { getIncomesRequest, createIncomeRequest, deleteIncomeRequest, updateIncomeRequest } from "../api/income";
+import { getIncomesRequest, getIncomeRequest, createIncomeRequest, deleteIncomeRequest, updateIncomeRequest } from "../api/income";
 
 const IncomeContext = createContext();
 
@@ -12,11 +12,22 @@ export const useIncomes = () => {
 export function IncomeProvider({children}) {
     const [incomes, setIncomes] = useState([])
 
-    //GET
+    //GET ALL
     const getIncomes = async () => {
         try {
             const res = await getIncomesRequest()
             setIncomes(res.data)
+           
+        } catch (error) {
+            console.error(error)
+        }
+    }
+
+    //GET ONE
+    const getIncome = async (id) => {
+        try {
+            const res = await getIncomeRequest(id)
+            return res.data
         } catch (error) {
             console.error(error)
         }
@@ -56,6 +67,7 @@ export function IncomeProvider({children}) {
             value={{
                 incomes,
                 getIncomes,
+                getIncome,
                 createIncome,
                 deleteIncome,
                 editIncome

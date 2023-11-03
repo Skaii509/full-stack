@@ -2,9 +2,10 @@ import React, { useEffect } from 'react';
 
 import { BsFillTrashFill, BsFillPencilFill } from "react-icons/bs"
 import { useIncomes } from '../context/IncomeContext';
+import { Link } from 'react-router-dom';
 
 function IncomesList() {
-    const { incomes, getIncomes, deleteIncome } = useIncomes()    
+    const { incomes, getIncomes, deleteIncome } = useIncomes()
     const totalAmount = incomes.reduce((acc, income) => acc + parseInt(income.amount, 10), 0);
     
     useEffect(() => {
@@ -27,7 +28,9 @@ function IncomesList() {
                             </td>
                             <td className='actionsCell'>
                                 <span className="actionIcons">
-                                    <BsFillPencilFill className="editIncomeButton" onClick={() => console.log("Edit: ", row._id)} />
+                                    <Link to={`${row._id}`}>
+                                        <BsFillPencilFill className="editIncomeButton" />
+                                    </Link>
                                     <BsFillTrashFill className="deleteIncomeButton" onClick={() => deleteIncome(row._id)} />
                                 </span>
                             </td>
