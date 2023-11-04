@@ -6,7 +6,7 @@ export const addIncomeSchema = z.object({
         required_error: 'Title is required'
     }),
     //AMOUNT
-    amount: z.string({
+    amount: z.number({
         required_error: 'Amount is required'
     })
 })

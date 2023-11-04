@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function IncomesList() {
     const { incomes, getIncomes, deleteIncome } = useIncomes()
-    const totalAmount = incomes.reduce((acc, income) => acc + parseInt(income.amount, 10), 0);
+    const totalAmount = incomes.reduce((acc, income) => acc + income.amount, 10, 0);
     
     useEffect(() => {
         getIncomes()
@@ -19,11 +19,11 @@ function IncomesList() {
                 incomes.map((row, idx) => {
                     return (
                         <tr key={idx}>
-                            <td>{row.title}</td>
+                            <td className='titleCell'>{row.title}</td>
                             <td className="amountCell">
                                 <div className="footerDiv">
                                     <p>$</p>
-                                    <p>{row.amount}</p>
+                                    <p>{parseFloat(row.amount).toLocaleString('es-ES')}</p>
                                 </div>
                             </td>
                             <td className='actionsCell'>
@@ -45,7 +45,7 @@ function IncomesList() {
                     <td className="actionsCell">
                         <div className="footerDiv">
                             <h1>$</h1>
-                            <h1>{totalAmount}</h1>
+                            <h1>{parseFloat(totalAmount).toLocaleString('es-ES')}</h1>
                         </div>
                     </td>
                     <td></td>

@@ -39,11 +39,20 @@ function IncomeFormPage() {
                     <form onSubmit={onSubmit}>
                         <div className='formGroup'>
                             <label htmlFor="income">Ingresos</label>
-                            <input type="text" placeholder='Titulo de ingreso...' name="income" id='income' {...register('title')} />
+                            <input type="text" placeholder='Titulo de ingreso...' name="income" id='income' {...register('title', {required: true})} />
                         </div>
                         <div className='formGroup'>
                             <label htmlFor="amount">Monto</label>
-                            <input type="text" placeholder='Monto...' name="amount" id='amount' {...register('amount')}/>
+                            <input 
+                                type="number" 
+                                placeholder='Monto...' 
+                                name="amount" 
+                                id='amount' 
+                                {...register('amount', {
+                                    required: true, 
+                                    valueAsNumber: true
+                                })}
+                            />
                         </div>
                         <div className='incomeFormBtnContainer'>
                             <Link className='modalCancelButton' to={'/calculator'}>Cancelar</Link>
