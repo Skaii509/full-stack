@@ -4,7 +4,8 @@
 }
 
 .profileImg {
-    width: 35px;
+    display: block;
+    max-width: 35px;
     height: 35px;
     border-radius: 50%;
     border: 1px solid black;
@@ -21,21 +22,21 @@
     top: 80px;
     border-radius: 12px;
     background-color: #f9f9f9;
-    width: 160px;
+    width: 180px;
     z-index: 1;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .dropdownContent::before {
     content: '';
     width: 11px;
     height: 11px;
-    right: -1px;
-    top: -1px;
+    right: -2px;
+    top: -2px;
     position: absolute;
     background-color: #f9f9f9;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
 
     border-bottom-left-radius: 100%;
     z-index: -1;
@@ -45,7 +46,9 @@
     color: black;
     padding: 12px 16px;
     text-decoration: none;
-    display: block;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
 }
 
 .dropdownContent a:hover {

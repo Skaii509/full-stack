@@ -38,7 +38,7 @@ function TaskFormPage() {
                 <form onSubmit={onSubmit}>
                     <h1 className='newTaskTitle'>New Task</h1>
                     <input type="text" placeholder="Title" 
-                        {... register('title')}
+                        {...register('title', {required: true})}
                         className='titleInput'
                         autoFocus
                     />

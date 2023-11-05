@@ -14,6 +14,7 @@ import SettingsPage  from './pages/SettingsPage'
 import CalculatorPage  from './pages/CalculatorPage'
 import IncomeFormPage  from './pages/IncomeFormPage'
 
+import './styles/App.css'
 import Navbar from './components/Navbar'
 
 import ProtectedRoute from './ProtectedRoute'
@@ -22,7 +23,7 @@ function App(){
   return (
     <AuthProvider>
       <BrowserRouter>
-        <main className='container mx-auto px-10'>
+        <main className='container'>
           <Navbar />
           <Routes>
             <Route path='/' element={<HomePage />} />

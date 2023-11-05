@@ -1,43 +1,66 @@
+import React, { useRef, useEffect } from 'react';
+
 import { Link } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 import Profile from './Profile';
 import '../styles/componentsStyles/Navbar.css'
 
 function Navbar() {
     const { isAuthenticated } = useAuth();
+    const navRef = useRef()
+
+    const showNavbar = () => {
+        navRef.current.classList.toggle('responsive_nav');
+    }
 
     return(
-        <nav className="navbar">
-            <Link to='/'>
-                <h1 className="navbarTitle">Ruta Financiera</h1>
-            </Link>
-            <ul className="navbarUl">
-                {isAuthenticated ? (
-                    <>
-                        <li className='navbarLi'>
-                            <Link to='/'>Home</Link>
-                        </li>
-                        <li className='navbarLi'>
-                            <Link to='/tasks'>Tasks</Link>
-                        </li>
-                        <li className='navbarLi'>
-                            <Link to='/calculator'>Calculator</Link>
-                        </li>
-                        <Profile />
-                    </>
-                ) : (
-                <>
-                    <li className='navbarLi'>
-                        <Link to='/login' className='navbarLinkLogin'>Login</Link>
-                    </li>
-                    <li className='navbarLi'>
-                        <Link to='/register' className='navbarLinkRegister'>Register</Link>
-                    </li>
-                </>    
-                )}
-            </ul>
-        </nav>
+        <header className="navbar">
+            <div className='navLeft'>
+                <Link to='/'>
+                    <h1 className="navbarTitle">Ruta Financiera</h1>
+                </Link>
+            </div>
+            <div className='navRight'>
+                <nav ref={navRef}>
+                    <ul className="navbarUl">
+                        {isAuthenticated ? (
+                            <>
+                                <li className='navbarLi' onClick={showNavbar}>
+                                    <Link to='/'>Home</Link>
+                                </li>
+                                <li className='navbarLi' onClick={showNavbar}>
+                                    <Link to='/tasks'>Tasks</Link>
+                                </li>
+                                <li className='navbarLi' onClick={showNavbar}>
+                                    <Link to='/calculator'>Calculator</Link>
+                                </li>
+                                <Profile />
+                                <button id='close-nav-btn' className='nav-btn close-nav-btn' onClick={showNavbar}>
+                                    <FaTimes />
+                                </button>
+                            </>
+                        ) : (
+                        <>
+                            <li className='navbarLi'>
+                                <Link to='/login' className='navbarLinkLogin'>Login</Link>
+                            </li>
+                            <li className='navbarLi'>
+                                <Link to='/register' className='navbarLinkRegister'>Register</Link>
+                            </li>
+                            <button id='close-nav-btn' className='nav-btn close-nav-btn' onClick={showNavbar}>
+                                <FaTimes />
+                            </button>
+                        </>    
+                        )}
+                    </ul>
+                </nav>
+                <button className='nav-btn' onClick={showNavbar}>
+                    <FaBars />
+                </button>
+            </div>
+        </header>
     )
 }
 
