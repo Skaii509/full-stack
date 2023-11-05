@@ -1,27 +1,27 @@
 import React from 'react';
 
 import { Link } from 'react-router-dom'
-import IncomesList from './IncomesList'
+import ExpensesList from './ExpensesList'
 import '../styles/componentsStyles/IncomeTable.css'
 
-function IncomeTable() {
+function ExpenseTable() {
     return (
         <>
             <div className='addIncomeBtnContainer'>
-                <Link className='addIncomeBtn' to={'add-income'}>Agregar ingreso</Link>
+                <Link className='addIncomeBtn' to={'add-expense'}>Agregar gasto</Link>
             </div>
             <table className="table">
                 <thead>
                     <tr>
-                        <th className="columnOne">Nombre de ingreso</th>
+                        <th className="columnOne">Nombre de gasto</th>
                         <th className="columnTwo">Monto</th>
                         <th className="columnThree">Acción</th>
                     </tr>
                 </thead>
-                <IncomesList />
+                <ExpensesList />
             </table>
         </>
     )
 }
 
-export default IncomeTable
+export default ExpenseTable

@@ -1,26 +1,25 @@
 import React, { useState, useEffect } from 'react';
 
 import { BsFillTrashFill, BsFillPencilFill } from "react-icons/bs"
-import { useIncomes } from '../context/IncomeContext';
+import { useExpenses } from '../context/IncomeContext';
 import { Link } from 'react-router-dom';
 
-function IncomesList() {
-    const { incomes, getIncomes, deleteIncome } = useIncomes()
-    const [ totalIncomesAmount, setTotalIncomesAmount ] = useState(0)
+function ExpensesList() {
+    const { expenses, getExpenses, deleteExpense } = useExpenses()
+    const [ totalExpensesAmount, setTotalExpensesAmount ] = useState(0)
 
-    const total = incomes.reduce((acc, income) => acc + income.amount, 0);
+    const total = expenses.reduce((acc, expense) => acc + expense.amount, 0);
     
     useEffect(() => {
-        getIncomes()
-        setTotalIncomesAmount(total)
+        getExpenses()
+        setTotalExpensesAmount(total)
     }, [total]);
-
 
     return ( 
         <>
             <tbody className="tableTbody">
             {
-                incomes.map((row, idx) => {
+                expenses.map((row, idx) => {
                     return (
                         <tr key={idx}>
                             <td className='titleCell'>{row.title}</td>
@@ -32,10 +31,10 @@ function IncomesList() {
                             </td>
                             <td className='actionsCell'>
                                 <span className="actionIcons">
-                                    <Link to={`incomes/${row._id}`}>
+                                    <Link to={`expenses/${row._id}`}>
                                         <BsFillPencilFill className="editIncomeButton" />
                                     </Link>
-                                    <BsFillTrashFill className="deleteIncomeButton" onClick={() => deleteIncome(row._id)} />
+                                    <BsFillTrashFill className="deleteIncomeButton" onClick={() => deleteExpense(row._id)} />
                                 </span>
                             </td>
                         </tr>
@@ -49,7 +48,7 @@ function IncomesList() {
                     <td className="actionsCell">
                         <div className="footerDiv">
                             <h1>$</h1>
-                            <h1>{parseFloat(totalIncomesAmount).toLocaleString('es-ES')}</h1>
+                            <h1>{parseFloat(totalExpensesAmount).toLocaleString('es-ES')}</h1>
                         </div>
                     </td>
                     <td></td>
@@ -59,4 +58,4 @@ function IncomesList() {
      );
 }
 
-export default IncomesList;
+export default ExpensesList;

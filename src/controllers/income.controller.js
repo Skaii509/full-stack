@@ -27,7 +27,6 @@ export const getIncome = async (req, res) => {
 export const createIncome = async (req, res) => {
     try {
         const { title, amount } = req.body
-        console.log(req.body)
         const newIncome = new Income({
             title,
             amount,

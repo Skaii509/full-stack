@@ -1,6 +1,7 @@
 import React from 'react';
 
 import IncomeTable from '../components/incomeTable'
+import ExpenseTable from '../components/ExpenseTable'
 import '../styles/pagesStyles/Calculator.css'
 
 function CalculatorPage() {
@@ -16,9 +17,22 @@ function CalculatorPage() {
 
             <div className='dataCard'>
                 <div className='headerWrapper'>
-                    <h1 className='headerText'><strong>Ingresos:</strong> ¿Cuanto dinero percibe mensualmente?</h1>
+                    <h1 className='headerText'><strong>Ingresos:</strong> ¿Cuánto dinero percibe mensualmente?</h1>
                 </div>
                 <IncomeTable />
+            </div>
+            
+            <div className='dataCard'>
+                <div className='headerWrapper'>
+                    <h1 className='headerText'><strong>Gastos:</strong> ¿Cuánto dinero gasta mensualmente?</h1>
+                </div>
+                <ExpenseTable />
+            </div>
+            
+            <div className='dataCard'>
+                <div className='headerWrapper'>
+                    <h1 className='headerText'><strong>Total</strong>$----</h1>
+                </div>
             </div>
         </>
     )

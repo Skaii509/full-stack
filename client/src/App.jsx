@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import { AuthProvider } from './context/AuthContext'
 import { TaskProvider } from './context/TasksContext'
-import { IncomeProvider } from './context/IncomeContext'
+import { CalculatorDataProvider } from './context/IncomeContext'
 
 import HomePage     from './pages/HomePage'
 import LoginPage    from './pages/LoginPage'
@@ -18,6 +18,7 @@ import './styles/App.css'
 import Navbar from './components/Navbar'
 
 import ProtectedRoute from './ProtectedRoute'
+import ExpenseFormPage from './pages/ExpenseFormPage'
 
 function App(){
   return (
@@ -36,9 +37,11 @@ function App(){
               <Route path='/tasks/:id' element={<TaskProvider><TaskFormPage /></TaskProvider>} />
               <Route path='/profile' element={<ProfilePage />} />
               <Route path='/settings' element={<SettingsPage />} />
-              <Route path='/calculator' element={<IncomeProvider><CalculatorPage /></IncomeProvider>} />
-              <Route path='/calculator/add-income' element={<IncomeProvider><IncomeFormPage /></IncomeProvider>} />
-              <Route path='/calculator/:id' element={<IncomeProvider><IncomeFormPage /></IncomeProvider>} />
+              <Route path='/calculator' element={<CalculatorDataProvider><CalculatorPage /></CalculatorDataProvider>} />
+              <Route path='/calculator/add-income' element={<CalculatorDataProvider><IncomeFormPage /></CalculatorDataProvider>} />
+              <Route path='/calculator/incomes/:id' element={<CalculatorDataProvider><IncomeFormPage /></CalculatorDataProvider>} />
+              <Route path='/calculator/add-expense' element={<CalculatorDataProvider><ExpenseFormPage /></CalculatorDataProvider>} />
+              <Route path='/calculator/expenses/:id' element={<CalculatorDataProvider><ExpenseFormPage /></CalculatorDataProvider>} />
             </Route>
           </Routes>
         </main>
