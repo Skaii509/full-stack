@@ -28,7 +28,7 @@ function Navbar() {
                         {isAuthenticated ? (
                             <>
                                 <li className='navbarLi' onClick={showNavbar}>
-                                    <Link to='/'>Home</Link>
+                                    <Link to='/'>Inicio</Link>
                                 </li>
                                 <li className='navbarLi' onClick={showNavbar}>
                                     <Link to='/tasks'>Tareas</Link>

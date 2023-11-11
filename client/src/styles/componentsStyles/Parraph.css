@@ -1,0 +1,14 @@
+.pContainer{
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+.pContainer .pTitle{
+    text-decoration: underline;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+.pText {
+    font-size: 13px;
+    line-height: 2;
+}

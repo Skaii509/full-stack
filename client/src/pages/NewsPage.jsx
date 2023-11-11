@@ -29,7 +29,6 @@ function NewsPage() {
         try {
           const newArray = loading.data.mostPopularEntries.assets;
           setNews(newArray)
-          console.log(news)
         } catch (error) {
           console.error("Error de map", error);
         }
@@ -42,19 +41,27 @@ function NewsPage() {
             const url = `${n.url}`
             return (
               <>
-                <div className='newsCard'>
-                  <a href={url} target="_blank" rel="noopener noreferrer">
-                    <Card key={idx} className='newsContainer'>
-                      <div>
-                        <Text className='title'>{n.headline}</Text>
-                        <Text className='description'>
-                          {n.description}
-                        </Text>
-                      </div>
-                      <img src={n.promoImage.url} alt="" width="400px"/>
-                    </Card>
-                  </a>
-                </div>
+                <a className='newsCard' key={idx} href={url} target="_blank">
+                  <div className='imgContainer'>
+                    <img src={n.promoImage.url}/>
+                  </div>
+                  <div className='infoContainer'>
+
+                    <div className='infoHeader'>
+                      <p>{n.headline}</p>
+                    </div>
+
+                    <div className='infoBody'>
+                      <p>{n.description}</p>
+                    </div>
+
+                    <div className='infoDetails'>
+                      <p>{n.authorFormatted}</p>
+                      <p>{n.shortDateFirstPublished}</p>
+                    </div>
+
+                  </div>
+                </a>
               </>
             )
           })}
