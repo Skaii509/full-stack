@@ -19,6 +19,7 @@ import Navbar from './components/Navbar'
 
 import ProtectedRoute from './ProtectedRoute'
 import ExpenseFormPage from './pages/ExpenseFormPage'
+import NewsPage from './pages/NewsPage'
 
 function App(){
   return (
@@ -42,6 +43,7 @@ function App(){
               <Route path='/calculator/incomes/:id' element={<CalculatorDataProvider><IncomeFormPage /></CalculatorDataProvider>} />
               <Route path='/calculator/add-expense' element={<CalculatorDataProvider><ExpenseFormPage /></CalculatorDataProvider>} />
               <Route path='/calculator/expenses/:id' element={<CalculatorDataProvider><ExpenseFormPage /></CalculatorDataProvider>} />
+              <Route path='/news' element={<NewsPage />} />
             </Route>
           </Routes>
         </main>

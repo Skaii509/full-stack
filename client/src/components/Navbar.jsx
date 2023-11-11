@@ -31,10 +31,13 @@ function Navbar() {
                                     <Link to='/'>Home</Link>
                                 </li>
                                 <li className='navbarLi' onClick={showNavbar}>
-                                    <Link to='/tasks'>Tasks</Link>
+                                    <Link to='/tasks'>Tareas</Link>
                                 </li>
                                 <li className='navbarLi' onClick={showNavbar}>
-                                    <Link to='/calculator'>Calculator</Link>
+                                    <Link to='/calculator'>Herramientas</Link>
+                                </li>
+                                <li className='navbarLi' onClick={showNavbar}>
+                                    <Link to='/news'>Noticias</Link>
                                 </li>
                                 <Profile />
                                 <button id='close-nav-btn' className='nav-btn close-nav-btn' onClick={showNavbar}>

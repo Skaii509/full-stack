@@ -1,0 +1,1862 @@
+{
+    "data": {
+        "mostPopularEntries": {
+            "__typename": "assetList",
+            "assets": [
+                {
+                    "__typename": "cnbcnewsstory",
+                    "id": 107320359,
+                    "headline": "IRS announces new income tax brackets for 2024",
+                    "shorterHeadline": "IRS announces new income tax brackets for 2024",
+                    "dateLastPublished": "2023-11-09T20:14:22+0000",
+                    "description": "The IRS on Thursday announced higher federal income tax brackets and standard deductions for 2024. Here's what taxpayers need to know.",
+                    "pageName": "107320359|2023/11/09/irs-here-are-the-new-income-tax-brackets-for-2024",
+                    "relatedTagsFilteredFormatted": "investment strategy|breaking news investing|breaking news politics|breaking news|personal saving|wealth|tax planning|government taxation and revenue|personal finance",
+                    "dateFirstPublished": "2023-11-09T18:56:16+0000",
+                    "sectionHierarchyFormatted": "investing|personal finance|your money",
+                    "authorFormatted": "kate dore cfp",
+                    "shortDateFirstPublished": "11/9/2023",
+                    "shortDateLastPublished": "11/9/2023",
+                    "url": "https://www.cnbc.com/2023/11/09/irs-here-are-the-new-income-tax-brackets-for-2024.html",
+                    "type": "cnbcnewsstory",
+                    "premium": false,
+                    "promoImage": {
+                        "__typename": "infographic",
+                        "id": 106831846,
+                        "url": "https://image.cnbcfm.com/api/v1/image/106831846-1611860153100-gettyimages-597933040-000102419135_Unapproved.jpeg?v=1679490001"
+                    },
+                    "featuredMedia": null,
+                    "section": {
+                        "__typename": "franchise",
+                        "id": 101283714,
+                        "shortestHeadline": null,
+                        "tagName": "Your Money",
+                        "url": "https://www.cnbc.com/your-money/",
+                        "premium": false
+                    }
+                },
+                {
+                    "__typename": "cnbcnewsstory",
+                    "id": 107331000,
+                    "headline": "Patients are lining up for $2,500 full-body MRI scans that can detect cancer early",
+                    "shorterHeadline": "Patients are lining up for $2,500 full-body MRI scans that can detect cancer early ",
+                    "dateLastPublished": "2023-11-10T15:00:01+0000",
+                    "description": "Thousands of people have paid $2,500 for full-body MRI scans from Prenuvo, whose technology can detect more than 500 health conditions",
+                    "pageName": "107331000|2023/11/10/prenuvo-offers-2500-full-body-mri-scans-that-can-detect-cancer-early",
+                    "relatedTagsFilteredFormatted": "health care industry|social media|enterprise|media|breaking news business|technology|breaking news technology|alphabet inc|meta platforms inc",
+                    "dateFirstPublished": "2023-11-10T15:00:01+0000",
+                    "sectionHierarchyFormatted": "technology",
+                    "authorFormatted": "ashley capoot",
+                    "shortDateFirstPublished": "11/10/2023",
+                    "shortDateLastPublished": "11/10/2023",
+                    "url": "https://www.cnbc.com/2023/11/10/prenuvo-offers-2500-full-body-mri-scans-that-can-detect-cancer-early.html",
+                    "type": "cnbcnewsstory",
+                    "premium": false,
+                    "promoImage": {
+                        "__typename": "infographic",
+                        "id": 107330994,
+                        "url": "https://image.cnbcfm.com/api/v1/image/107330994-1699471414816-DSC00864-edited.jpg?v=1699471500"
+                    },
+                    "featuredMedia": null,
+                    "section": {
+                        "__typename": "franchise",
+                        "id": 19854910,
+                        "shortestHeadline": "Tech",
+                        "tagName": "Technology",
+                        "url": "https://www.cnbc.com/technology/",
+                        "premium": false
+                    }
+                },
+                {
+                    "__typename": "live_story",
+                    "id": 107331831,
+                    "headline": "Dow leaps nearly 400 points Friday, major averages notch a second week of gains",
+                    "shorterHeadline": "Dow leaps nearly 400 points Friday, major averages notch a second week of gains",
+                    "dateLastPublished": "2023-11-10T21:28:54+0000",
+                    "description": "Stocks rallied Friday, making up the ground lost in the previous session as Treasury yields stabilized. ",
+                    "pageName": "107331831|2023/11/09/stock-market-today-live-updates",
+                    "relatedTagsFilteredFormatted": "markets|breaking news markets|prices|jerome powell|dow jones fut mar23|sp 500 fut mar23|nasdaq 100 fut mar23|wynn resorts ltd|sp 500 index|nasdaq composite|dow jones industrial average|mary daly|plug power inc",
+                    "dateFirstPublished": "2023-11-09T23:01:45+0000",
+                    "sectionHierarchyFormatted": "markets",
+                    "authorFormatted": "brian evans|hakyung kim",
+                    "shortDateFirstPublished": "11/9/2023",
+                    "shortDateLastPublished": "11/10/2023",
+                    "url": "https://www.cnbc.com/2023/11/09/stock-market-today-live-updates.html",
+                    "type": "live_story",
+                    "premium": false,
+                    "promoImage": {
+                        "__typename": "infographic",
+                        "id": 107332200,
+                        "url": "https://image.cnbcfm.com/api/v1/image/107332200-1699631647252-gettyimages-1785915740-ms2_0438_2uspt0js.jpeg?v=1699631787"
+                    },
+                    "featuredMedia": null,
+                    "section": {
+                        "__typename": "franchise",
+                        "id": 102,
+                        "shortestHeadline": "Markets",
+                        "tagName": "Markets",
+                        "url": "https://www.cnbc.com/markets/",
+                        "premium": false
+                    }
+                },
+                {
+                    "__typename": "cnbcnewsstory",
+                    "id": 107330415,
+                    "headline": "It 'doesn't make financial sense' for expats to give up their U.S. citizenship, expert says",
+                    "shorterHeadline": "Giving up your U.S. citizenship 'doesn't make financial sense,' expert says",
+                    "dateLastPublished": "2023-11-10T15:56:15+0000",
+                    "description": "Giving up U.S. citizenship can be a long, difficult and costly process, and can be tricky to reverse. Additionally, it may not be financially worth the effort.",
+                    "pageName": "107330415|2023/11/10/why-expats-giving-up-us-citizenship-doesnt-make-financial-sense",
+                    "relatedTagsFilteredFormatted": "legislation|tax planning|united states|jude boudreaux cfp|social issues|real estate|personal finance",
+                    "dateFirstPublished": "2023-11-10T13:22:52+0000",
+                    "sectionHierarchyFormatted": "investing|financial advisors|yearend planning",
+                    "authorFormatted": "ana teresa sol",
+                    "shortDateFirstPublished": "11/10/2023",
+                    "shortDateLastPublished": "11/10/2023",
+                    "url": "https://www.cnbc.com/2023/11/10/why-expats-giving-up-us-citizenship-doesnt-make-financial-sense.html",
+                    "type": "cnbcnewsstory",
+                    "premium": false,
+                    "promoImage": {
+                        "__typename": "infographic",
+                        "id": 107330416,
+                        "url": "https://image.cnbcfm.com/api/v1/image/107330416-1699390115410-gettyimages-1427965054-lisbon-1345.jpeg?v=1699390159"
+                    },
+                    "featuredMedia": null,
+                    "section": {
+                        "__typename": "franchise",
+                        "id": 101103491,
+                        "shortestHeadline": null,
+                        "tagName": "Year-end Planning",
+                        "url": "https://www.cnbc.com/year-end-planning/",
+                        "premium": false
+                    }
+                },
+                {
+                    "__typename": "cnbcnewsstory",
+                    "id": 107332242,
+                    "headline": "Trump admits ‘various people’ saw ‘papers and boxes’ brought from White House",
+                    "shorterHeadline": "Trump admits ‘various people’ saw ‘papers and boxes’ brought from White House",
+                    "dateLastPublished": "2023-11-10T19:49:50+0000",
+                    "description": "Former President Donald Trump faces the prospect of multiple, separate criminal trials in 2024, as he seeks the GOP presidential nomination.",
+                    "pageName": "107332242|2023/11/10/trump-judge-rejects-classified-documents-trial-delay",
+                    "relatedTagsFilteredFormatted": "laws|crime|elections|donald trump|securities fraud|corruption|joe biden|collusion|government and politics|donald trump|politics|breaking news politics",
+                    "dateFirstPublished": "2023-11-10T17:37:34+0000",
+                    "sectionHierarchyFormatted": "politics",
+                    "authorFormatted": "dan mangan",
+                    "shortDateFirstPublished": "11/10/2023",
+                    "shortDateLastPublished": "11/10/2023",
+                    "url": "https://www.cnbc.com/2023/11/10/trump-judge-rejects-classified-documents-trial-delay.html",
+                    "type": "cnbcnewsstory",
+                    "premium": false,
+                    "promoImage": {
+                        "__typename": "infographic",
+                        "id": 107254163,
+                        "url": "https://image.cnbcfm.com/api/v1/image/107254163-1686319652770-Untitled-3.jpg?v=1699645677"
+                    },
+                    "featuredMedia": null,
+                    "section": {
+                        "__typename": "franchise",
+                        "id": 10000113,
+                        "shortestHeadline": "Politics",
+                        "tagName": "Politics",
+                        "url": "https://www.cnbc.com/politics/",
+                        "premium": false
+                    }
+                }
+            ]
+        }
+    },
+    "extensions": {
+        "tracing": {
+            "version": 1,
+            "startTime": "2023-11-10T21:35:16.625Z",
+            "endTime": "2023-11-10T21:35:16.920Z",
+            "duration": 294725490,
+            "execution": {
+                "resolvers": [
+                    {
+                        "path": [
+                            "mostPopularEntries"
+                        ],
+                        "parentType": "Query",
+                        "fieldName": "mostPopular",
+                        "returnType": "assetList",
+                        "startOffset": 909628,
+                        "duration": 292177480
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets"
+                        ],
+                        "parentType": "assetList",
+                        "fieldName": "assets",
+                        "returnType": "[assetInterface]",
+                        "startOffset": 293111541,
+                        "duration": 72716
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            0,
+                            "id"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "id",
+                        "returnType": "Int",
+                        "startOffset": 293252132,
+                        "duration": 3032
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            0,
+                            "headline"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "headline",
+                        "returnType": "String",
+                        "startOffset": 293258340,
+                        "duration": 1036
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            0,
+                            "shorterHeadline"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "shorterHeadline",
+                        "returnType": "String",
+                        "startOffset": 293260836,
+                        "duration": 544
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            0,
+                            "dateLastPublished"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "dateLastPublished",
+                        "returnType": "String",
+                        "startOffset": 293262856,
+                        "duration": 516
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            0,
+                            "description"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "description",
+                        "returnType": "String",
+                        "startOffset": 293264215,
+                        "duration": 425
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            0,
+                            "pageName"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "pageName",
+                        "returnType": "String",
+                        "startOffset": 293266481,
+                        "duration": 8292
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            0,
+                            "relatedTagsFilteredFormatted"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "relatedTagsFilteredFormatted",
+                        "returnType": "String",
+                        "startOffset": 293277048,
+                        "duration": 1137281
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            0,
+                            "dateFirstPublished"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "dateFirstPublished",
+                        "returnType": "String",
+                        "startOffset": 293346253,
+                        "duration": 988
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            0,
+                            "sectionHierarchyFormatted"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "sectionHierarchyFormatted",
+                        "returnType": "String",
+                        "startOffset": 293349249,
+                        "duration": 1069922
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            0,
+                            "authorFormatted"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "authorFormatted",
+                        "returnType": "String",
+                        "startOffset": 293378032,
+                        "duration": 5531
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            0,
+                            "shortDateFirstPublished"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "shortDateFirstPublished",
+                        "returnType": "String",
+                        "startOffset": 293385087,
+                        "duration": 10147
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            0,
+                            "shortDateLastPublished"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "shortDateLastPublished",
+                        "returnType": "String",
+                        "startOffset": 293397198,
+                        "duration": 2406
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            0,
+                            "url"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "url",
+                        "returnType": "String",
+                        "startOffset": 293400754,
+                        "duration": 3513
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            0,
+                            "type"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "type",
+                        "returnType": "String",
+                        "startOffset": 293405558,
+                        "duration": 972
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            0,
+                            "premium"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "premium",
+                        "returnType": "Boolean",
+                        "startOffset": 293407723,
+                        "duration": 2324
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            0,
+                            "promoImage"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "promoImage",
+                        "returnType": "infographic",
+                        "startOffset": 293412094,
+                        "duration": 3340
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            0,
+                            "promoImage",
+                            "id"
+                        ],
+                        "parentType": "infographic",
+                        "fieldName": "id",
+                        "returnType": "Int",
+                        "startOffset": 293421064,
+                        "duration": 1178
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            0,
+                            "promoImage",
+                            "url"
+                        ],
+                        "parentType": "infographic",
+                        "fieldName": "url",
+                        "returnType": "String",
+                        "startOffset": 293423910,
+                        "duration": 1715
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            0,
+                            "featuredMedia"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "featuredMedia",
+                        "returnType": "featuredMedia",
+                        "startOffset": 293428267,
+                        "duration": 993793
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            0,
+                            "section"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "section",
+                        "returnType": "franchise",
+                        "startOffset": 293448795,
+                        "duration": 976800
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            1,
+                            "id"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "id",
+                        "returnType": "Int",
+                        "startOffset": 293562006,
+                        "duration": 981
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            1,
+                            "headline"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "headline",
+                        "returnType": "String",
+                        "startOffset": 293564456,
+                        "duration": 528
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            1,
+                            "shorterHeadline"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "shorterHeadline",
+                        "returnType": "String",
+                        "startOffset": 293565891,
+                        "duration": 496
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            1,
+                            "dateLastPublished"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "dateLastPublished",
+                        "returnType": "String",
+                        "startOffset": 293567470,
+                        "duration": 588
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            1,
+                            "description"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "description",
+                        "returnType": "String",
+                        "startOffset": 293568864,
+                        "duration": 475
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            1,
+                            "pageName"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "pageName",
+                        "returnType": "String",
+                        "startOffset": 293570226,
+                        "duration": 3644
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            1,
+                            "relatedTagsFilteredFormatted"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "relatedTagsFilteredFormatted",
+                        "returnType": "String",
+                        "startOffset": 293574944,
+                        "duration": 889862
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            1,
+                            "dateFirstPublished"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "dateFirstPublished",
+                        "returnType": "String",
+                        "startOffset": 293608564,
+                        "duration": 619
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            1,
+                            "sectionHierarchyFormatted"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "sectionHierarchyFormatted",
+                        "returnType": "String",
+                        "startOffset": 293610079,
+                        "duration": 858250
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            1,
+                            "authorFormatted"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "authorFormatted",
+                        "returnType": "String",
+                        "startOffset": 293624978,
+                        "duration": 2563
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            1,
+                            "shortDateFirstPublished"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "shortDateFirstPublished",
+                        "returnType": "String",
+                        "startOffset": 293628614,
+                        "duration": 3205
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            1,
+                            "shortDateLastPublished"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "shortDateLastPublished",
+                        "returnType": "String",
+                        "startOffset": 293633172,
+                        "duration": 1933
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            1,
+                            "url"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "url",
+                        "returnType": "String",
+                        "startOffset": 293635889,
+                        "duration": 1203
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            1,
+                            "type"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "type",
+                        "returnType": "String",
+                        "startOffset": 293637864,
+                        "duration": 650
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            1,
+                            "premium"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "premium",
+                        "returnType": "Boolean",
+                        "startOffset": 293639186,
+                        "duration": 784
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            1,
+                            "promoImage"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "promoImage",
+                        "returnType": "infographic",
+                        "startOffset": 293640954,
+                        "duration": 2182
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            1,
+                            "promoImage",
+                            "id"
+                        ],
+                        "parentType": "infographic",
+                        "fieldName": "id",
+                        "returnType": "Int",
+                        "startOffset": 293646234,
+                        "duration": 694
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            1,
+                            "promoImage",
+                            "url"
+                        ],
+                        "parentType": "infographic",
+                        "fieldName": "url",
+                        "returnType": "String",
+                        "startOffset": 293648111,
+                        "duration": 1541
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            1,
+                            "featuredMedia"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "featuredMedia",
+                        "returnType": "featuredMedia",
+                        "startOffset": 293651064,
+                        "duration": 821468
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            1,
+                            "section"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "section",
+                        "returnType": "franchise",
+                        "startOffset": 293664307,
+                        "duration": 811468
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            2,
+                            "id"
+                        ],
+                        "parentType": "live_story",
+                        "fieldName": "id",
+                        "returnType": "Int",
+                        "startOffset": 293760502,
+                        "duration": 889
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            2,
+                            "headline"
+                        ],
+                        "parentType": "live_story",
+                        "fieldName": "headline",
+                        "returnType": "String",
+                        "startOffset": 293763376,
+                        "duration": 1125
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            2,
+                            "shorterHeadline"
+                        ],
+                        "parentType": "live_story",
+                        "fieldName": "shorterHeadline",
+                        "returnType": "String",
+                        "startOffset": 293765606,
+                        "duration": 565
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            2,
+                            "dateLastPublished"
+                        ],
+                        "parentType": "live_story",
+                        "fieldName": "dateLastPublished",
+                        "returnType": "String",
+                        "startOffset": 293767353,
+                        "duration": 664
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            2,
+                            "description"
+                        ],
+                        "parentType": "live_story",
+                        "fieldName": "description",
+                        "returnType": "String",
+                        "startOffset": 293768841,
+                        "duration": 488
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            2,
+                            "pageName"
+                        ],
+                        "parentType": "live_story",
+                        "fieldName": "pageName",
+                        "returnType": "String",
+                        "startOffset": 293770932,
+                        "duration": 3065
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            2,
+                            "relatedTagsFilteredFormatted"
+                        ],
+                        "parentType": "live_story",
+                        "fieldName": "relatedTagsFilteredFormatted",
+                        "returnType": "String",
+                        "startOffset": 293775299,
+                        "duration": 728470
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            2,
+                            "dateFirstPublished"
+                        ],
+                        "parentType": "live_story",
+                        "fieldName": "dateFirstPublished",
+                        "returnType": "String",
+                        "startOffset": 293828168,
+                        "duration": 860
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            2,
+                            "sectionHierarchyFormatted"
+                        ],
+                        "parentType": "live_story",
+                        "fieldName": "sectionHierarchyFormatted",
+                        "returnType": "String",
+                        "startOffset": 293830362,
+                        "duration": 676593
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            2,
+                            "authorFormatted"
+                        ],
+                        "parentType": "live_story",
+                        "fieldName": "authorFormatted",
+                        "returnType": "String",
+                        "startOffset": 293849728,
+                        "duration": 3991
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            2,
+                            "shortDateFirstPublished"
+                        ],
+                        "parentType": "live_story",
+                        "fieldName": "shortDateFirstPublished",
+                        "returnType": "String",
+                        "startOffset": 293855034,
+                        "duration": 3288
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            2,
+                            "shortDateLastPublished"
+                        ],
+                        "parentType": "live_story",
+                        "fieldName": "shortDateLastPublished",
+                        "returnType": "String",
+                        "startOffset": 293860090,
+                        "duration": 2064
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            2,
+                            "url"
+                        ],
+                        "parentType": "live_story",
+                        "fieldName": "url",
+                        "returnType": "String",
+                        "startOffset": 293863410,
+                        "duration": 1348
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            2,
+                            "type"
+                        ],
+                        "parentType": "live_story",
+                        "fieldName": "type",
+                        "returnType": "String",
+                        "startOffset": 293866046,
+                        "duration": 724
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            2,
+                            "premium"
+                        ],
+                        "parentType": "live_story",
+                        "fieldName": "premium",
+                        "returnType": "Boolean",
+                        "startOffset": 293868018,
+                        "duration": 1028
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            2,
+                            "promoImage"
+                        ],
+                        "parentType": "live_story",
+                        "fieldName": "promoImage",
+                        "returnType": "infographic",
+                        "startOffset": 293871544,
+                        "duration": 2270
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            2,
+                            "promoImage",
+                            "id"
+                        ],
+                        "parentType": "infographic",
+                        "fieldName": "id",
+                        "returnType": "Int",
+                        "startOffset": 293877005,
+                        "duration": 733
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            2,
+                            "promoImage",
+                            "url"
+                        ],
+                        "parentType": "infographic",
+                        "fieldName": "url",
+                        "returnType": "String",
+                        "startOffset": 293878685,
+                        "duration": 813
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            2,
+                            "featuredMedia"
+                        ],
+                        "parentType": "live_story",
+                        "fieldName": "featuredMedia",
+                        "returnType": "featuredMedia",
+                        "startOffset": 293881434,
+                        "duration": 628351
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            2,
+                            "section"
+                        ],
+                        "parentType": "live_story",
+                        "fieldName": "section",
+                        "returnType": "franchise",
+                        "startOffset": 293895494,
+                        "duration": 617331
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            3,
+                            "id"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "id",
+                        "returnType": "Int",
+                        "startOffset": 293992794,
+                        "duration": 901
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            3,
+                            "headline"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "headline",
+                        "returnType": "String",
+                        "startOffset": 293994787,
+                        "duration": 602
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            3,
+                            "shorterHeadline"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "shorterHeadline",
+                        "returnType": "String",
+                        "startOffset": 293996259,
+                        "duration": 488
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            3,
+                            "dateLastPublished"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "dateLastPublished",
+                        "returnType": "String",
+                        "startOffset": 293997770,
+                        "duration": 508
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            3,
+                            "description"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "description",
+                        "returnType": "String",
+                        "startOffset": 293998967,
+                        "duration": 476
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            3,
+                            "pageName"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "pageName",
+                        "returnType": "String",
+                        "startOffset": 294000528,
+                        "duration": 2720
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            3,
+                            "relatedTagsFilteredFormatted"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "relatedTagsFilteredFormatted",
+                        "returnType": "String",
+                        "startOffset": 294004216,
+                        "duration": 536013
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            3,
+                            "dateFirstPublished"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "dateFirstPublished",
+                        "returnType": "String",
+                        "startOffset": 294033906,
+                        "duration": 702
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            3,
+                            "sectionHierarchyFormatted"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "sectionHierarchyFormatted",
+                        "returnType": "String",
+                        "startOffset": 294035544,
+                        "duration": 507998
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            3,
+                            "authorFormatted"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "authorFormatted",
+                        "returnType": "String",
+                        "startOffset": 294051566,
+                        "duration": 5050
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            3,
+                            "shortDateFirstPublished"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "shortDateFirstPublished",
+                        "returnType": "String",
+                        "startOffset": 294057758,
+                        "duration": 2787
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            3,
+                            "shortDateLastPublished"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "shortDateLastPublished",
+                        "returnType": "String",
+                        "startOffset": 294061890,
+                        "duration": 1585
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            3,
+                            "url"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "url",
+                        "returnType": "String",
+                        "startOffset": 294064188,
+                        "duration": 1146
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            3,
+                            "type"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "type",
+                        "returnType": "String",
+                        "startOffset": 294066180,
+                        "duration": 651
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            3,
+                            "premium"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "premium",
+                        "returnType": "Boolean",
+                        "startOffset": 294067528,
+                        "duration": 701
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            3,
+                            "promoImage"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "promoImage",
+                        "returnType": "infographic",
+                        "startOffset": 294069075,
+                        "duration": 1172
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            3,
+                            "promoImage",
+                            "id"
+                        ],
+                        "parentType": "infographic",
+                        "fieldName": "id",
+                        "returnType": "Int",
+                        "startOffset": 294072927,
+                        "duration": 822
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            3,
+                            "promoImage",
+                            "url"
+                        ],
+                        "parentType": "infographic",
+                        "fieldName": "url",
+                        "returnType": "String",
+                        "startOffset": 294074568,
+                        "duration": 734
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            3,
+                            "featuredMedia"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "featuredMedia",
+                        "returnType": "featuredMedia",
+                        "startOffset": 294076558,
+                        "duration": 469809
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            3,
+                            "section"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "section",
+                        "returnType": "franchise",
+                        "startOffset": 294088710,
+                        "duration": 460504
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            4,
+                            "id"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "id",
+                        "returnType": "Int",
+                        "startOffset": 294234173,
+                        "duration": 1429
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            4,
+                            "headline"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "headline",
+                        "returnType": "String",
+                        "startOffset": 294236905,
+                        "duration": 2365
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            4,
+                            "shorterHeadline"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "shorterHeadline",
+                        "returnType": "String",
+                        "startOffset": 294240046,
+                        "duration": 516
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            4,
+                            "dateLastPublished"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "dateLastPublished",
+                        "returnType": "String",
+                        "startOffset": 294241525,
+                        "duration": 631
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            4,
+                            "description"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "description",
+                        "returnType": "String",
+                        "startOffset": 294242827,
+                        "duration": 436
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            4,
+                            "pageName"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "pageName",
+                        "returnType": "String",
+                        "startOffset": 294244314,
+                        "duration": 3023
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            4,
+                            "relatedTagsFilteredFormatted"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "relatedTagsFilteredFormatted",
+                        "returnType": "String",
+                        "startOffset": 294248225,
+                        "duration": 327294
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            4,
+                            "dateFirstPublished"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "dateFirstPublished",
+                        "returnType": "String",
+                        "startOffset": 294284927,
+                        "duration": 734
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            4,
+                            "sectionHierarchyFormatted"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "sectionHierarchyFormatted",
+                        "returnType": "String",
+                        "startOffset": 294286638,
+                        "duration": 291501
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            4,
+                            "authorFormatted"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "authorFormatted",
+                        "returnType": "String",
+                        "startOffset": 294300139,
+                        "duration": 2274
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            4,
+                            "shortDateFirstPublished"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "shortDateFirstPublished",
+                        "returnType": "String",
+                        "startOffset": 294303226,
+                        "duration": 3383
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            4,
+                            "shortDateLastPublished"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "shortDateLastPublished",
+                        "returnType": "String",
+                        "startOffset": 294307923,
+                        "duration": 1516
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            4,
+                            "url"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "url",
+                        "returnType": "String",
+                        "startOffset": 294310201,
+                        "duration": 1372
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            4,
+                            "type"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "type",
+                        "returnType": "String",
+                        "startOffset": 294312413,
+                        "duration": 625
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            4,
+                            "premium"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "premium",
+                        "returnType": "Boolean",
+                        "startOffset": 294313729,
+                        "duration": 821
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            4,
+                            "promoImage"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "promoImage",
+                        "returnType": "infographic",
+                        "startOffset": 294315432,
+                        "duration": 1362
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            4,
+                            "promoImage",
+                            "id"
+                        ],
+                        "parentType": "infographic",
+                        "fieldName": "id",
+                        "returnType": "Int",
+                        "startOffset": 294319795,
+                        "duration": 759
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            4,
+                            "promoImage",
+                            "url"
+                        ],
+                        "parentType": "infographic",
+                        "fieldName": "url",
+                        "returnType": "String",
+                        "startOffset": 294321413,
+                        "duration": 788
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            4,
+                            "featuredMedia"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "featuredMedia",
+                        "returnType": "featuredMedia",
+                        "startOffset": 294323484,
+                        "duration": 257196
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            4,
+                            "section"
+                        ],
+                        "parentType": "cnbcnewsstory",
+                        "fieldName": "section",
+                        "returnType": "franchise",
+                        "startOffset": 294335313,
+                        "duration": 247908
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            0,
+                            "section",
+                            "id"
+                        ],
+                        "parentType": "franchise",
+                        "fieldName": "id",
+                        "returnType": "Int",
+                        "startOffset": 294434045,
+                        "duration": 851
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            0,
+                            "section",
+                            "shortestHeadline"
+                        ],
+                        "parentType": "franchise",
+                        "fieldName": "shortestHeadline",
+                        "returnType": "String",
+                        "startOffset": 294436269,
+                        "duration": 690
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            0,
+                            "section",
+                            "tagName"
+                        ],
+                        "parentType": "franchise",
+                        "fieldName": "tagName",
+                        "returnType": "String",
+                        "startOffset": 294438243,
+                        "duration": 571
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            0,
+                            "section",
+                            "url"
+                        ],
+                        "parentType": "franchise",
+                        "fieldName": "url",
+                        "returnType": "String",
+                        "startOffset": 294440346,
+                        "duration": 1030
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            0,
+                            "section",
+                            "premium"
+                        ],
+                        "parentType": "franchise",
+                        "fieldName": "premium",
+                        "returnType": "Boolean",
+                        "startOffset": 294442851,
+                        "duration": 2627
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            1,
+                            "section",
+                            "id"
+                        ],
+                        "parentType": "franchise",
+                        "fieldName": "id",
+                        "returnType": "Int",
+                        "startOffset": 294480621,
+                        "duration": 542
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            1,
+                            "section",
+                            "shortestHeadline"
+                        ],
+                        "parentType": "franchise",
+                        "fieldName": "shortestHeadline",
+                        "returnType": "String",
+                        "startOffset": 294481916,
+                        "duration": 444
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            1,
+                            "section",
+                            "tagName"
+                        ],
+                        "parentType": "franchise",
+                        "fieldName": "tagName",
+                        "returnType": "String",
+                        "startOffset": 294483111,
+                        "duration": 545
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            1,
+                            "section",
+                            "url"
+                        ],
+                        "parentType": "franchise",
+                        "fieldName": "url",
+                        "returnType": "String",
+                        "startOffset": 294484488,
+                        "duration": 769
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            1,
+                            "section",
+                            "premium"
+                        ],
+                        "parentType": "franchise",
+                        "fieldName": "premium",
+                        "returnType": "Boolean",
+                        "startOffset": 294485927,
+                        "duration": 864
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            2,
+                            "section",
+                            "id"
+                        ],
+                        "parentType": "franchise",
+                        "fieldName": "id",
+                        "returnType": "Int",
+                        "startOffset": 294517360,
+                        "duration": 626
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            2,
+                            "section",
+                            "shortestHeadline"
+                        ],
+                        "parentType": "franchise",
+                        "fieldName": "shortestHeadline",
+                        "returnType": "String",
+                        "startOffset": 294518711,
+                        "duration": 510
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            2,
+                            "section",
+                            "tagName"
+                        ],
+                        "parentType": "franchise",
+                        "fieldName": "tagName",
+                        "returnType": "String",
+                        "startOffset": 294519817,
+                        "duration": 496
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            2,
+                            "section",
+                            "url"
+                        ],
+                        "parentType": "franchise",
+                        "fieldName": "url",
+                        "returnType": "String",
+                        "startOffset": 294521092,
+                        "duration": 745
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            2,
+                            "section",
+                            "premium"
+                        ],
+                        "parentType": "franchise",
+                        "fieldName": "premium",
+                        "returnType": "Boolean",
+                        "startOffset": 294522496,
+                        "duration": 682
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            3,
+                            "section",
+                            "id"
+                        ],
+                        "parentType": "franchise",
+                        "fieldName": "id",
+                        "returnType": "Int",
+                        "startOffset": 294553301,
+                        "duration": 648
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            3,
+                            "section",
+                            "shortestHeadline"
+                        ],
+                        "parentType": "franchise",
+                        "fieldName": "shortestHeadline",
+                        "returnType": "String",
+                        "startOffset": 294554681,
+                        "duration": 508
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            3,
+                            "section",
+                            "tagName"
+                        ],
+                        "parentType": "franchise",
+                        "fieldName": "tagName",
+                        "returnType": "String",
+                        "startOffset": 294555829,
+                        "duration": 552
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            3,
+                            "section",
+                            "url"
+                        ],
+                        "parentType": "franchise",
+                        "fieldName": "url",
+                        "returnType": "String",
+                        "startOffset": 294557541,
+                        "duration": 759
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            3,
+                            "section",
+                            "premium"
+                        ],
+                        "parentType": "franchise",
+                        "fieldName": "premium",
+                        "returnType": "Boolean",
+                        "startOffset": 294558956,
+                        "duration": 651
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            4,
+                            "section",
+                            "id"
+                        ],
+                        "parentType": "franchise",
+                        "fieldName": "id",
+                        "returnType": "Int",
+                        "startOffset": 294587073,
+                        "duration": 664
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            4,
+                            "section",
+                            "shortestHeadline"
+                        ],
+                        "parentType": "franchise",
+                        "fieldName": "shortestHeadline",
+                        "returnType": "String",
+                        "startOffset": 294588495,
+                        "duration": 786
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            4,
+                            "section",
+                            "tagName"
+                        ],
+                        "parentType": "franchise",
+                        "fieldName": "tagName",
+                        "returnType": "String",
+                        "startOffset": 294589905,
+                        "duration": 404
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            4,
+                            "section",
+                            "url"
+                        ],
+                        "parentType": "franchise",
+                        "fieldName": "url",
+                        "returnType": "String",
+                        "startOffset": 294591139,
+                        "duration": 879
+                    },
+                    {
+                        "path": [
+                            "mostPopularEntries",
+                            "assets",
+                            4,
+                            "section",
+                            "premium"
+                        ],
+                        "parentType": "franchise",
+                        "fieldName": "premium",
+                        "returnType": "Boolean",
+                        "startOffset": 294592637,
+                        "duration": 684
+                    }
+                ]
+            }
+        }
+    }
+}
