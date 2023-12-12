@@ -7,22 +7,22 @@ import { addExpenseSchema } from '../schemas/addExpense.schema.js'
 
 const router = Router()
 
-//GET ALL
+// GET ALL
 router.get('/expenses', authRequired, getExpenses)
 
-//GET ONE
+// GET ONE
 router.get('/expenses/:id', authRequired, getExpense)
 
-//POST
+// POST
 router.post('/expenses', authRequired, validateSchema(addExpenseSchema), createExpense)
 
-//DELETE ALL
+// DELETE ALL
 router.delete('/expenses', authRequired, deleteExpenses)
 
-//DELETE ONE
+// DELETE ONE
 router.delete('/expenses/:id', authRequired, deleteExpense)
 
-//PUT
+// PUT
 router.put('/expenses/:id', authRequired, updateExpense)
 
 export default router

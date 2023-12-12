@@ -11,11 +11,6 @@
     border: 1px solid black;
 }
 
-.profileImg:hover {
-    opacity: .6;
-    transition: .2s ease;
-}
-
 .dropdownContent {
     display: block;
     position: absolute;

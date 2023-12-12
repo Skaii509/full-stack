@@ -7,22 +7,22 @@ import { addIncomeSchema } from '../schemas/addIncome.schema.js'
 
 const router = Router()
 
-//GET ALL
+// GET ALL
 router.get('/incomes', authRequired, getIncomes)
 
-//GET ONE
+// GET ONE
 router.get('/incomes/:id', authRequired, getIncome)
 
-//POST
+// POST
 router.post('/incomes', authRequired, validateSchema(addIncomeSchema), createIncome)
 
-//DELETE ALL
+// DELETE ALL
 router.delete('/incomes', authRequired, deleteIncomes)
 
-//DELETE ONE
+// DELETE ONE
 router.delete('/incomes/:id', authRequired, deleteIncome)
 
-//PUT
+// PUT
 router.put('/incomes/:id', authRequired, updateIncome)
 
 export default router
