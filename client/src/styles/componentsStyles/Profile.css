@@ -14,7 +14,8 @@
 .dropdownContent {
     display: block;
     position: absolute;
-    top: 80px;
+    top: 50px;
+    right: 110px;
     border-radius: 12px;
     background-color: #f9f9f9;
     width: 180px;

@@ -40,7 +40,7 @@ function InteresPage() {
                                 placeholder='0...' 
                                 min={0} 
                                 id='capitalInicial' 
-                                {...register('capitalInicial', {required: true})}
+                                {...register('capitalInicial', {required: true, min: 0})}
                             />
                         </div>
                     </div>
@@ -48,23 +48,23 @@ function InteresPage() {
                         <label htmlFor="adicionAnual">Adición anual</label>
                         <div>
                             <label htmlFor="adicionAnual">$</label>
-                            <input type="number" placeholder='0...' id='adicionAnual' {...register('adicionAnual', {required: true})} />
+                            <input type="number" placeholder='0...' min={0} id='adicionAnual' {...register('adicionAnual', {required: true})} />
                         </div>
                     </div>
                     <div className='interesRow'>
                         <label htmlFor="años">Años</label>
-                        <input type="number" placeholder='0...' id='años' {...register('años', {required: true})} />
+                        <input type="number" placeholder='0...' min={0} id='años' {...register('años', {required: true})} />
                     </div>
                     <div className='interesRow'>
                         <label htmlFor="tasaInteres">Tasa de interes (%)</label>
                         <div>
-                            <input type="number" placeholder='%...' id='tasaInteres' {...register('tasaInteres', {required: true})} />
+                            <input type="number" placeholder='%...' min={0} id='tasaInteres' {...register('tasaInteres', {required: true})} />
                             <label htmlFor="tasaInteres">%</label>
                         </div>
                     </div>
                     <div className='interesRow'>
                         <label htmlFor="interesCompuestoXAño">Interes compuesto</label>
-                        <input type="number" placeholder='1...' id='interesCompuestoXAño' {...register('interesCompuestoXAño', {required: true})} />
+                        <input type="number" placeholder='1...' min={0} id='interesCompuestoXAño' {...register('interesCompuestoXAño', {required: true})} />
                         <h1>veces por año</h1>
                     </div>
                     <button type='submit'>Enviar</button>

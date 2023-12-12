@@ -40,7 +40,7 @@ function CalculatorPage() {
     }, [totalIncome, totalExpense]);
     
     const textStyle = {
-        color: calculation < 0 ? 'red' : 'green'
+        color: calculation < 0 ? 'red' : '#42a942'
     };
 
     return (
@@ -72,6 +72,9 @@ function CalculatorPage() {
                     <h1 style={textStyle} className='headerText'><strong>Total </strong>${parseFloat(calculation).toLocaleString('es-ES')}</h1>
                 </div>
             </div>
+            <br />
+            <br />
+            <br />
         </>
     )
 }
